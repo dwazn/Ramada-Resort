@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html >
+   <head >
+      <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+      <meta name='viewport' content='width=device-width, initial-scale=1'>
+      <title >Form Page: Ramada_reservation</title>
+      <meta name='generator' content='dwazn Forms 5.0.8.459'>
+      <script src='scripts/jquery-1.7.2.min.js' type='text/javascript'></script>
+      <script src='scripts/jquery-ui-1.8.18.custom.min.js' type='text/javascript'></script>
+      <script src='scripts/globalize.js' type='text/javascript'></script>
+      <script src='scripts/jquery-ui-1.8.21.custom.date.min.js' type='text/javascript'></script>
+      <script src='scripts/moment.js' type='text/javascript'></script>
+      <script src='scripts/sfm_calendar.js' type='text/javascript'></script>
+      <script src='scripts/jquery.sim.number.js' type='text/javascript'></script>
+      <script src='scripts/jquery.sim.utils.js' type='text/javascript'></script>
+      <script src='scripts/sfm_validatorv7.js' type='text/javascript'></script>
+      <link rel='stylesheet' type='text/css' href='style/jquery-ui-1.8.16.css'>
+      <link rel='stylesheet' type='text/css' href='style/Ramada_reservation.css?r=%sfm_css_rand%'>
+   </head>
+   <body id='sfm_Ramada_reservation_body'>
+      <form id='Ramada_reservation' class='sfm_form' novalidate='novalidate' method='post' action='%sfm_self_script%' accept-charset='UTF-8'>
+         <div id='Ramada_reservation_errorloc' class='error_strings' style='width:436px;text-align:left'>%sfm_error_display_loc%</div>
+         <div id='Ramada_reservation_outer_div_p1' class='form_outer_div'>
+            <div style='position:relative' id='Ramada_reservation_inner_div'>
+               <input type='hidden' name='sfm_form_submitted' value='yes'>
+               <input type='hidden' name='%_sfm_form_id_iput_var_%' value='%_sfm_form_id_iput_value_%'>
+               <input type='text' name='tc5f7705414473fc5fa21' id='tc5f7705414473fc5fa21'>
+               <div id='label_container' class='sfm_form_label'>
+                  <label id='label'>Full name</label>
+               </div>
+               <div id='full_name_container' class='sfm_element_container'>
+                  <input type='text' name='full_name' id='full_name' class='sfm_textbox_common sfm_textbox' size='20' value='%full_name%'>
+               </div>
+               <div id='label1_container' class='sfm_form_label'>
+                  <label id='label1'>E-mail</label>
+               </div>
+               <div id='Email_container' class='sfm_element_container'>
+                  <input type='email' name='Email' id='Email' class='sfm_textbox_common sfm_textbox' size='20' value='%Email%'>
+               </div>
+               <div id='label2_container' class='sfm_form_label'>
+                  <label id='label2' for='Phone'>personal phone</label>
+               </div>
+               <div id='Phone_container' class='sfm_element_container'>
+                  <input type='tel' name='Phone' id='Phone' class='sfm_textbox_common sfm_textbox' size='20' value='%Phone%'>
+               </div>
+               <div id='label3_container' class='sfm_form_label'>
+                  <label id='label3' for='Address'>Address</label>
+               </div>
+               <div id='Address_container' class='sfm_element_container'>
+                  <input type='text' name='Address' id='Address' class='sfm_textbox_common sfm_textbox' size='20' value='%Address%'>
+               </div>
+               <div id='label9_container' class='sfm_form_label'>
+                  <label id='label9'>Nationality</label>
+               </div>
+               <div id='Nationality_container' class='sfm_element_container'>
+                  <input type='text' name='Nationality' id='Nationality' class='sfm_textbox_common sfm_textbox' size='20' value='%Nationality%'>
+               </div>
+               <div id='label10_container' class='sfm_form_label'>
+                  <label id='label10'>Company name</label>
+               </div>
+               <div id='company_name_container' class='sfm_element_container'>
+                  <input type='text' name='company_name' id='company_name' class='sfm_textbox_common sfm_textbox' size='20' value='%company_name%'>
+               </div>
+               <div id='Type_of_reservation_container' class='sfm_element_container'>
+                  <select name='Type_of_reservation' id='Type_of_reservation' size='1'>
+                     <option value='Select one...' %53d0dd5f41b773ba06ae1e4599836e80%>Select one...</option>
+                     <option value='Singel Room' %5114583745dced5c1fe07bab2aa845ab%>Singel Room</option>
+                     <option value='Twin Bed Room' %fbec5b6e206fd6b2a57261f617dbbe8f%>Twin Bed Room</option>
+                     <option value='Suite' %9f875e9941e8579cca9c4f0a15e20915%>Suite</option>
+                     <option value='Confirance Hall' %5cbf49a4baba4e4b71335ffd711ad8c1%>Confirance Hall</option>
+                  </select>
+               </div>
+               <div id='label6_container' class='sfm_form_label'>
+                  <label id='label6'>Type of reservation</label>
+               </div>
+               <div class='sfm_element_container sfm_date_container' id='chick_in_date_container'>
+                  <input type='text' name='chick_in_date' id='chick_in_date' class='sfm_datepicker_input' value='%chick_in_date%'>
+                  <input type='text' name='sfm_chick_in_date_parsed' id='sfm_chick_in_date_parsed' tabindex='-1' style='display:none'>
+                  <div id='chick_in_date_image_container' class='sfm_datepicker_img_container'>
+                     <img id='chick_in_date_image' class='sfm_datepicker_icon' src='images/calendar16x16_10.png' width='16' height='16' alt='Click here to open the date picker'>
+                  </div>
+               </div>
+               <div id='label7_container' class='sfm_form_label'>
+                  <label id='label7'>Chick-in date</label>
+               </div>
+               <div id='label8_container' class='sfm_form_label'>
+                  <label id='label8'>Chick-out date</label>
+               </div>
+               <div class='sfm_element_container sfm_date_container' id='chick_out_date_container'>
+                  <input type='text' name='chick_out_date' id='chick_out_date' class='sfm_datepicker_input' value='%chick_out_date%'>
+                  <input type='text' name='sfm_chick_out_date_parsed' id='sfm_chick_out_date_parsed' tabindex='-1' style='display:none'>
+                  <div id='chick_out_date_image_container' class='sfm_datepicker_img_container'>
+                     <img id='chick_out_date_image' class='sfm_datepicker_icon' src='images/calendar16x16_10.png' width='16' height='16' alt='Click here to open the date picker'>
+                  </div>
+               </div>
+               <div id='label5_container' class='sfm_form_label'>
+                  <label id='label5'>No. of rooms</label>
+               </div>
+               <div id='no_of_rooms_container' class='sfm_element_container'>
+                  <input type='text' pattern='[0-9]*' inputmode='numeric' name='no_of_rooms' id='no_of_rooms' value='%no_of_rooms%'>
+                  <input type='text' name='sfm_no_of_rooms_parsed' id='sfm_no_of_rooms_parsed' tabindex='-1' style='display:none'>
+               </div>
+               <div id='label4_container' class='sfm_form_label'>
+                  <label id='label4'>No. of person</label>
+               </div>
+               <div id='no_of_person_container' class='sfm_element_container'>
+                  <input type='text' name='no_of_person' id='no_of_person' class='sfm_textbox_common sfm_textbox' size='20' value='%no_of_person%'>
+               </div>
+               <div id='label11_container' class='sfm_form_label'>
+                  <label id='label11'>No. of childrens</label>
+               </div>
+               <div id='no_of_childerns_container' class='sfm_element_container'>
+                  <input type='text' pattern='[0-9]*' inputmode='numeric' name='no_of_childerns' id='no_of_childerns' value='%no_of_childerns%'>
+                  <input type='text' name='sfm_no_of_childerns_parsed' id='sfm_no_of_childerns_parsed' tabindex='-1' style='display:none'>
+               </div>
+               <div class='element_label sfm_element_container' id='Pickup_from_airport_container'><input type='checkbox' name='Pickup_from_airport' id='Pickup_from_airport' value='on' %46a70471f7e0fa0c120489d9b66a4446%><label for='Pickup_from_airport' class='element_label' id='Pickup_from_airport_label'></label></div>
+               <div id='label12_container' class='sfm_form_label'>
+                  <label id='label12'>Pickup from airport service?</label>
+               </div>
+               <div id='Captcha_container' class='sfm_element_container'>
+                  <div >
+                     <img class='sfm_captcha' id='img_Captcha' src='%sfm_self_script%&amp;sfm_get_captcha=1&amp;sfm_captcha_k=%_sfm_form_page_session_id_%' width='150' height='60' alt='Captcha'>
+                  </div>
+                  <div class='element_label'>Please enter the code above in the box below.</div>
+                  <div >
+                     <input type='text' name='sfm_captcha_Captcha' id='sfm_captcha_Captcha'>
+                     <input type='hidden' name='sfm_captcha_Captcha_k' id='sfm_captcha_Captcha_k' value='%_sfm_form_page_session_id_%'>
+                  </div>
+                  <div class='element_label'>
+                     <small >Can't read the image? Please click <a href="javascript: void(0);" onclick="sfm_refresh_captcha('img_Captcha','sfm_captcha_Captcha','%_sfm_form_page_session_id_%') ;return true;">here</a> to refresh</small>
+                  </div>
+               </div>
+               <div id='Submit_container' class='loading_div sfm_element_container'>
+                  <input type='image' name='Submit' id='Ramada_reservation_Submit_img' src='images/Ramada_reservation-Submit-0.png' alt='submit'>
+               </div>
+            </div>
+         </div>
+      </form>
+      <script type='text/javascript'>
+$(function()
+{
+   new sfm_calendar({input_id:"chick_in_date",image_id:"chick_in_date_image",form_id:"Ramada_reservation",mirror:"sfm_chick_in_date_parsed"})
+   new sfm_calendar({input_id:"chick_out_date",image_id:"chick_out_date_image",form_id:"Ramada_reservation",mirror:"sfm_chick_out_date_parsed"})
+   new sfm_number_field('no_of_rooms','Ramada_reservation',{mirror:'sfm_no_of_rooms_parsed'});
+   new sfm_number_field('no_of_childerns','Ramada_reservation',{mirror:'sfm_no_of_childerns_parsed'});
+   sfm_show_loading_on_formsubmit('Ramada_reservation','Ramada_reservation_Submit_img');
+});
+      </script>
+      <script type='text/javascript'>
+var Ramada_reservationValidator = new Validator("Ramada_reservation");
+Ramada_reservationValidator.addValidation("full_name",{required:true,message:"Please fill in full_name"} );
+Ramada_reservationValidator.addValidation("Email",{email:true,message:"The input for  should be a valid email value"} );
+Ramada_reservationValidator.addValidation("Email",{required:true,message:"Please fill in Email"} );
+Ramada_reservationValidator.addValidation("Phone",{required:true,message:"Please fill in Phone"} );
+Ramada_reservationValidator.addValidation("Address",{required:true,message:"Please fill in Address"} );
+Ramada_reservationValidator.addValidation("Nationality",{required:true,message:"Please fill in Nationality"} );
+Ramada_reservationValidator.addValidation("Type_of_reservation",{dontselect:"Select one...",message:"Please select an option for DropdownList"} );
+Ramada_reservationValidator.addValidation("chick_in_date",{required:true,message:"Please fill in chick_in_date"} );
+Ramada_reservationValidator.addValidation("chick_out_date",{required:true,message:"Please fill in chick_out_date"} );
+Ramada_reservationValidator.addValidation("no_of_rooms",{numeric:true,message:"The input for  should be a valid numeric value"} );
+Ramada_reservationValidator.addValidation("no_of_person",{required:true,message:"Please fill in no_of_person"} );
+Ramada_reservationValidator.addValidation("no_of_childerns",{numeric:true,message:"The input for  should be a valid numeric value"} );
+Ramada_reservationValidator.addValidation("sfm_captcha_Captcha",{required:true,message:"Please input the code displayed in the image"} );
+Ramada_reservationValidator.addValidation("sfm_captcha_Captcha",{remote:"?sfm_validate_captcha=y&sfm_captcha_Captcha_k=%_sfm_form_page_session_id_%"} );
+      </script>
+   </body>
+</html>
